@@ -1,0 +1,5 @@
+﻿  ConsoleApplication15.cpp
+C:\Users\kiber\source\repos\ConsoleApplication15\ConsoleApplication15\ConsoleApplication15.cpp(9,38): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\kiber\source\repos\ConsoleApplication15\ConsoleApplication15\ConsoleApplication15.cpp(61,9): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+C:\Users\kiber\source\repos\ConsoleApplication15\ConsoleApplication15\ConsoleApplication15.cpp(43,25): warning C4101: listItem: неиспользованная локальная переменная
+  ConsoleApplication15.vcxproj -> C:\Users\kiber\source\repos\ConsoleApplication15\x64\Debug\ConsoleApplication15.exe
