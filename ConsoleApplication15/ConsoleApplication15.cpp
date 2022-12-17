@@ -4,7 +4,6 @@
 #include <list>
 
 int binSearch(const std::list <int> &thisList, int key) {
-    
     int Left, Right, central;
     Left = 0; Right = thisList.size();
     while (Left < Right - 1) {
@@ -18,6 +17,7 @@ int binSearch(const std::list <int> &thisList, int key) {
             Left = central;
         }
     }
+
     auto it = thisList.begin();
     std::advance(it, Left);
     if (*it == key) {
@@ -36,6 +36,7 @@ int cinChecker() {
             continue;
         std::cout << "\a:Ошибка, введите снова: ";
     }
+
     return cinVar;
 }
 
